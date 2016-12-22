@@ -1,0 +1,408 @@
+.programdays h1,.programdays h2{
+	font-size:2.25rem;
+}
+.programdays .col-a h1{
+	text-align:right;
+}
+.programdays h2{
+	color:#f26639;
+}
+.programoverview .col{
+	margin-bottom:2rem;
+}
+.programoverview h2{
+	font-family:'Helvetica Neue', Helvetica, Arial, sans-serif;
+	font-size:1rem;
+	font-weight:bold;
+	margin-bottom:1rem;
+}
+.programoverview h2 a{
+	color:#515e66;
+}
+.programoverview h2 a:hover{
+	color:#515e66;
+	text-decoration:none;
+}
+.programoverview img{
+	width:100%;
+	height:auto;
+}
+.programoverview .starttime{
+	font-size:1.5rem;
+	line-height:1.25rem;
+	margin-top:1rem;
+}
+.programoverview .description small{
+	display:block;
+}
+.programoverview .break,.programoverview .misc{
+	color:#94a2a9;
+}
+.programoverview .night{
+	color:#f26639;
+}
+.programoverview .col{
+	background:#fff;
+	cursor:pointer;
+}
+@media screen and (min-width:701px){
+	.programoverview .col:hover{
+		background:#f5f5f5;
+		box-shadow:0 0 5px 8px #f5f5f5;
+	}
+	.programoverview .col:hover .description{
+		color:#2c3236;
+	}
+}
+.programoverview .col h2{
+	background:#55c4c4;
+	line-height:1;
+	border-radius:8px;
+	text-align:center;
+	box-sizing:border-box;
+	padding:8px 0;
+}
+.programoverview .col:hover h2{
+	background:#f26639;
+	box-shadow:0 0 10px #fff;
+}
+.programoverview .col h2 a{
+	color:#fff;
+}
+.programdays .col-a{
+	text-align:right;
+}
+.programdays a{
+	display:inline-block;
+	background:#55c4c4;
+	color:#fff;
+	border-radius:8px;
+	padding:0 8px;
+	margin:1rem 0.5rem 0 0;
+	vertical-align:top;
+}
+.programdays a:hover{
+	color:#fff;
+	text-decoration:none;
+	background:#f26639;
+}
+.programdays .col-a a{
+	margin:1rem 0 0 0.5rem;
+}
+.program .col-a{
+	text-align:right;
+}
+.programoverview .col-a{
+	text-align:left;
+}
+.program .groupheading{
+	margin-bottom:0.5rem;
+	font-variant:small-caps;
+}
+.program .description,.program .groupheading{
+	font-size:0.87rem;
+	line-height:1.15;
+}
+.program .timeslot .col-a{
+	line-height:1;
+}
+.program .col-a time span{
+	white-space:nowrap;
+}
+.program .keynote .description,.program .social .description{
+	font-weight:bold;
+}
+.program .shorttalks .description,.program .shorttalks .teaser,.program .shorttalks .speaker{
+	padding-left:9px;
+}
+.program .shorttalks .description{
+	background:url(../assets/themes/interaction/img/indent.png) no-repeat 0 2px;
+}
+.program .video{
+	background:url(../assets/themes/interaction/img/video.svg) no-repeat 0 2px;
+	background-size:1rem;
+	padding-left:1.2rem;
+}
+.program .shorttalks .video{
+	margin-left:9px;
+	padding-left:1.2rem;
+}
+.program .speaker{
+	font-size:0.87rem;
+	line-height:1;
+	color:#94a2a9;
+	font-style:italic;
+}
+.program .speaker .sponsor{
+	color:#f26639;
+}
+.program .soldout{
+	background:#515e66;
+	color:#fff;
+	float:right;
+	border-radius:4px;
+	padding:6px 8px;
+}
+.program span.soldout{
+	float:none;
+	margin-left:1em;
+	padding:2px 8px;
+}
+/*
+.program p.sponsor{
+	color:#f26639;
+	font-style:italic;
+}*/
+.program .break{
+	border-top:1px solid #dde1e3;
+	margin-bottom:10px;
+}
+.program .break+.social{
+	border-top:0;
+}
+.program .break+.talk,.program .social+.talk{
+	border-top:1px solid #dde1e3;
+}
+.program .break .col{
+	margin-bottom:5px;
+	padding-top:5px;
+}
+.program .break time,
+.program .break .description,
+.program .misc time,
+.program .misc .description{
+	color:#f26639;
+}
+.program .social{
+	border-top:1px solid #dde1e3;
+	margin-bottom:10px;
+}
+.program .social+.social{
+	border-top:0;
+	margin-top:-10px;
+}
+.program .social .col{
+	margin-bottom:5px;
+	padding-top:5px;
+}
+.program .social time,
+.program .social .description{
+	color:#f26639;
+}
+
+
+.program .teaser{
+	margin-top:0.5rem;
+	display:none;
+}
+.program .social .teaser,.program .misc .teaser{
+	display:block;
+}
+.program .social .teaser strong,.program .sponsor strong{
+	font-weight:normal;
+	color:#f26639;
+}
+.program .teaser,.program .location,.program .props,.program .presentedby,.program .sponsor{
+	font-size:0.87rem;
+	line-height:1.15;
+}
+.programoverview .location{
+	font-style:italic;
+	font-size:smaller;
+}
+.program .speaker,.program .sponsor{
+	margin-top:0.25rem;
+	margin-bottom:0.5rem;
+}
+.program .location{
+	margin-top:0.5rem;
+}
+.program .location,.programoverview .location{
+	background:url(../assets/themes/interaction/img/location.svg) no-repeat center left;
+	background-size:contain;
+	padding-left:1rem;
+}
+.program .props{
+	border-bottom:1px solid #dde1e3;
+	margin-bottom:0.5rem;
+}
+.program .presentedby{
+	margin-bottom:1rem;
+}
+.program .presentedby a{
+	color:inherit;
+	cursor:default;
+}
+.program .presentedby a:hover{
+	text-decoration:none;
+	color:inherit;
+}
+.program .session nav,.program nav.repeated{
+	text-align:center;
+	margin-bottom:0.5rem;
+}
+.disclaimer{
+	margin-top:0.5rem;
+	text-align:center;
+	font-size:0.875rem;
+}
+.program .session em{
+	color:#f26639;
+	font-style:normal;
+}
+.program .workshop h2{
+	margin-bottom:0.5rem;
+}
+.program .timeslot time{
+	padding-right:1.5rem;
+	margin-right:-1.5rem;
+}
+.program .timeslot.open,.program .timeslot.closed{
+	cursor:pointer;
+}
+.program .timeslot.closed time{
+	background:url(../assets/themes/interaction/img/closed.png) no-repeat center right;
+}
+.program .timeslot.open time{
+	background:url(../assets/themes/interaction/img/open.png) no-repeat center right;
+}
+.program .timeslot.closed:hover time{
+	background-image:url(../assets/themes/interaction/img/closed-hover.png);
+}
+.program .timeslot.open:hover time{
+	background-image:url(../assets/themes/interaction/img/open-hover.png);
+}
+.timetable td:first-of-type{
+	width:6.2rem;
+}
+.timetable span{
+}
+.sidenote{
+	font-style:italic;
+	padding-left:1rem;
+	margin-left:1rem;
+	border-left:1px dashed #dde1e3;
+	font-size:14px;
+	line-height:24px;
+	font-size:0.875rem;
+	line-height:1.5rem;
+}
+@media screen and (min-width:701px){
+	.program time{
+		display:block;
+		font-size:1.5rem;
+		line-height:1.7rem;
+	}
+	.timeslot .location{
+		display:none;
+	}
+}
+@media screen and (min-width:481px) and (max-width:700px){
+	.program .col-b,.program .col-bcd{
+		width:100%;
+		margin-left:0;
+	}
+	.program .timeslot .col-d{
+		border-left:1px dashed #dde1e3;
+	}
+}
+@media screen and (max-width:700px){
+	.program .locations{
+		display:none;
+	}
+	.program .description,.program .groupheading{
+		font-size:1rem;
+		line-height:1;
+	}
+	.program section,.program .programdays{
+		position:relative;
+	}
+	.program .col{
+		padding-left:5em;
+	}
+	.program .session .col{
+		padding-left:0;
+	}
+	.program .col-a{
+		position:absolute;
+		top:0;
+		left:0;
+		padding-left:0;
+		width:4em;
+	}
+	.program .programdays a{
+		margin:0.75rem 0 0 0;
+	}
+	.program .programdays .col-a{
+		height:3em;
+		overflow:hidden;
+	}
+	.program .programdays a{
+		display:none
+	}
+	.program .programdays .col-a a:last-of-type{
+		margin-right:1px;
+		display:inline-block;
+	}
+	.program .programdays .col-d a:first-of-type{
+		margin-left:1px;
+		display:inline-block;
+	}
+	.program .programdays .col-bc{
+		padding-right:5em;
+	}
+	.program .programdays .col-d{
+		position:absolute;
+		top:0;
+		right:0;
+		padding-left:0;
+		width:4em;
+		height:3em;
+		overflow:hidden;
+		text-align:right;
+	}
+	.programoverview h2{
+		font-size:1.25rem;
+		line-height:1;
+	}
+	.program .workshop .col-a small{
+		display:none;
+	}
+	.program .timeslot time{
+		padding-right:1rem;
+		margin-right:-1rem;
+	}
+	.program .timeslot.closed time{
+		background:url(../assets/themes/interaction/img/closed-s.png) no-repeat center right;
+	}
+	.program .timeslot.open time{
+		background:url(../assets/themes/interaction/img/open-s.png) no-repeat center right;
+	}
+	.program .timeslot.closed:hover time{
+		background-image:url(../assets/themes/interaction/img/closed-hover-s.png);
+	}
+	.program .timeslot.open:hover time{
+		background-image:url(../assets/themes/interaction/img/open-hover-s.png);
+	}
+}
+@media screen and (max-width:480px){
+	.programoverview .starttime{
+		font-size:1.25rem;
+		line-height:1;
+	}
+	.programoverview .description small{
+		display:inline;
+	}
+	.program .programdays .col-bc{
+		width:70%
+	}
+	.program .presentedby a{
+		cursor:pointer;
+		color:#429696;
+		border-bottom:1px dotted #429696;
+	}
+	.program .presentedby a:hover{
+		color:#f26639;
+		border-bottom:1px dotted #f26639;
+	}
+}
